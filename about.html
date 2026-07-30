@@ -40,14 +40,14 @@
         </div>
     </nav>
 
-    <!-- Page Hero -->
+    <!-- Page Hero (aurora animation via CSS) -->
     <section class="page-hero">
         <div class="page-hero-content container">
-            <div class="breadcrumb">
+            <div class="breadcrumb hero-animate-1">
                 <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Tentang Saya</span>
             </div>
-            <h1>Lebih Dekat Dengan <span class="gradient-text">Saya</span></h1>
-            <p>Mengenal lebih jauh tentang perjalanan, latar belakang, dan semangat saya dalam dunia pengembangan web.</p>
+            <h1 class="hero-animate-2">Lebih Dekat Dengan <span class="gradient-text">Saya</span></h1>
+            <p class="hero-animate-3">Mengenal lebih jauh tentang perjalanan, latar belakang, dan semangat saya dalam dunia pengembangan web.</p>
         </div>
     </section>
 
@@ -55,12 +55,12 @@
     <section class="about-full-section">
         <div class="container">
             <div class="about-full-grid">
-                <div class="about-full-image">
+                <div class="about-full-image reveal">
                     <div class="image-wrapper">
                         <img src="Images/Self-potrait/Foto_Kenlie_Jas.jpg" alt="Kenlie Athalla Bintang">
                     </div>
                 </div>
-                <div class="about-full-text">
+                <div class="about-full-text reveal">
                     <h2>Halo, Saya Kenlie <span class="gradient-text">👋</span></h2>
                     <p>
                         Saya adalah mahasiswa <span class="highlight">Sistem Informasi</span> di Universitas Kristen Krida Wacana
@@ -125,7 +125,7 @@
                     <div class="about-cta-buttons">
                         <a href="index.html#contact" class="btn btn-primary">Hubungi Saya</a>
                         <a href="portfolio.html" class="btn btn-secondary">Lihat Portofolio</a>
-                        <a href="My-CV/CV_Kenlie.pdf" class="btn btn-secondary" download><i class="fas fa-download"></i> Download CV</a>
+                        <a href="My-CV/CV Kenlie ATS.pdf" class="btn btn-secondary" download><i class="fas fa-download"></i> Download CV</a>
                     </div>
                 </div>
             </div>
@@ -135,7 +135,7 @@
     <!-- Education Timeline -->
     <section class="education-section">
         <div class="container">
-            <h2 class="section-title">Perjalanan Pendidikan</h2>
+            <h2 class="section-title reveal">Perjalanan Pendidikan</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
@@ -168,13 +168,13 @@
     <!-- Sertifikasi -->
     <section class="cert-section">
         <div class="container">
-            <h2 class="section-title">Sertifikasi</h2>
-            <div class="cert-grid">
+            <h2 class="section-title reveal">Sertifikasi</h2>
+            <div class="cert-grid stagger-container">
 
-                <!-- Sertifikat 1 — ganti src dengan path gambar nyata -->
-                <div class="cert-card">
+                <!-- Sertifikat 1 -->
+                <div class="cert-card stagger-item">
                     <div class="cert-img-wrap">
-                        <img src="Images/Certificates/cert-1.jpg" alt="Sertifikat 1"
+                        <img src="Images/Sertificate/Sertificate 1.jpg" alt="Sertifikat 1"
                              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="cert-placeholder">
                             <i class="fas fa-award"></i>
@@ -182,15 +182,15 @@
                         </div>
                     </div>
                     <div class="cert-info">
-                        <span class="cert-issuer"><i class="fas fa-building"></i> Nama Lembaga / Platform</span>
-                        <h3 class="cert-title">Nama Sertifikat</h3>
-                        <p class="cert-desc">Deskripsi singkat tentang apa yang dipelajari atau dicapai dalam sertifikasi ini.</p>
-                        <span class="cert-date"><i class="fas fa-calendar-alt"></i> Bulan Tahun</span>
+                        <span class="cert-issuer"><i class="fas fa-building"></i> Sertifikasi Online Course</span>
+                        <h3 class="cert-title">Sertifikat Javascript, PHP, Python Programming Course</h3>
+                        <p class="cert-desc">Sertifikat pencapaian dan keahlian.</p>
+                        <span class="cert-date"><i class="fas fa-calendar-alt"></i> 2024</span>
                     </div>
                 </div>
 
                 <!-- Sertifikat 2 -->
-                <div class="cert-card">
+                <div class="cert-card stagger-item">
                     <div class="cert-img-wrap">
                         <img src="Images/Certificates/cert-2.jpg" alt="Sertifikat 2"
                              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
@@ -208,7 +208,7 @@
                 </div>
 
                 <!-- Sertifikat 3 -->
-                <div class="cert-card">
+                <div class="cert-card stagger-item">
                     <div class="cert-img-wrap">
                         <img src="Images/Certificates/cert-3.jpg" alt="Sertifikat 3"
                              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
@@ -232,9 +232,9 @@
     <!-- Skills Full -->
     <section class="skills-full-section">
         <div class="container">
-            <h2 class="section-title">Keahlian Teknis</h2>
-            <div class="skills-full-grid">
-                <div class="skill-full-card">
+            <h2 class="section-title reveal">Keahlian Teknis</h2>
+            <div class="skills-full-grid stagger-container">
+                <div class="skill-full-card stagger-item">
                     <h3><i class="fab fa-html5"></i> Frontend</h3>
                     <div class="skill-item">
                         <div class="skill-item-header">
@@ -266,7 +266,7 @@
                     </div>
                 </div>
 
-                <div class="skill-full-card">
+                <div class="skill-full-card stagger-item">
                     <h3><i class="fas fa-server"></i> Backend</h3>
                     <div class="skill-item">
                         <div class="skill-item-header">
@@ -298,11 +298,11 @@
                     </div>
                 </div>
 
-                <div class="skill-full-card">
-                    <h3><i class="fas fa-tools"></i> Tools & Lainnya</h3>
+                <div class="skill-full-card stagger-item">
+                    <h3><i class="fas fa-tools"></i> Tools &amp; Lainnya</h3>
                     <div class="skill-item">
                         <div class="skill-item-header">
-                            <span>Git & GitHub</span>
+                            <span>Git &amp; GitHub</span>
                             <span class="skill-level-label">Mahir</span>
                         </div>
                         <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85%"></div></div>
@@ -336,24 +336,24 @@
     <!-- Achievements / Soft Skills -->
     <section class="achievements-section">
         <div class="container">
-            <h2 class="section-title">Nilai &amp; Karakter</h2>
-            <div class="achievements-grid">
-                <div class="achievement-card">
+            <h2 class="section-title reveal">Nilai &amp; Karakter</h2>
+            <div class="achievements-grid stagger-container">
+                <div class="achievement-card stagger-item">
                     <div class="icon-wrap"><i class="fas fa-lightbulb"></i></div>
                     <h3>Problem Solver</h3>
                     <p>Senang menganalisis masalah dan mencari solusi yang efisien serta terstruktur.</p>
                 </div>
-                <div class="achievement-card">
+                <div class="achievement-card stagger-item">
                     <div class="icon-wrap"><i class="fas fa-users"></i></div>
                     <h3>Kolaboratif</h3>
                     <p>Terbiasa bekerja dalam tim menggunakan Git untuk proyek kolaboratif berskala kecil hingga menengah.</p>
                 </div>
-                <div class="achievement-card">
+                <div class="achievement-card stagger-item">
                     <div class="icon-wrap"><i class="fas fa-clock"></i></div>
                     <h3>Manajemen Waktu</h3>
                     <p>Mampu mengatur prioritas antara kuliah dan proyek pengembangan pribadi secara seimbang.</p>
                 </div>
-                <div class="achievement-card">
+                <div class="achievement-card stagger-item">
                     <div class="icon-wrap"><i class="fas fa-seedling"></i></div>
                     <h3>Growth Mindset</h3>
                     <p>Selalu terbuka mempelajari teknologi baru dan menerima masukan untuk terus berkembang.</p>
@@ -364,7 +364,7 @@
 
     <!-- CTA Section -->
     <section class="about-cta-section">
-        <div class="container about-cta-content">
+        <div class="container about-cta-content reveal">
             <h2>Tertarik Bekerja Sama?</h2>
             <p>Saya selalu terbuka untuk proyek baru, diskusi teknologi, maupun sekadar berkenalan. Jangan ragu untuk menghubungi saya!</p>
             <div class="cta-buttons">
@@ -389,40 +389,6 @@
         </div>
     </footer>
 
-    <script>
-        // Mobile Navigation Toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navMenu = document.querySelector('.nav-menu');
-
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
-        });
-
-        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
-            hamburger.classList.remove('active');
-            navMenu.classList.remove('active');
-        }));
-
-        // Navbar scroll effect
-        window.addEventListener('scroll', () => {
-            const navbar = document.querySelector('.navbar');
-            navbar.classList.toggle('scrolled', window.scrollY > 50);
-        });
-
-        // Animate skill bars on scroll (triggered by IntersectionObserver)
-        const skillObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.querySelectorAll('.skill-bar-fill').forEach(fill => {
-                        fill.style.width = fill.getAttribute('data-width') || '0%';
-                    });
-                    skillObserver.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.3 });
-
-        document.querySelectorAll('.skill-full-card').forEach(card => skillObserver.observe(card));
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
