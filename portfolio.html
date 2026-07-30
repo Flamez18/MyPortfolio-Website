@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Proyek - Kenlie Athalla Bintang</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Kenlie Athalla Bintang</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">Tentang</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active-page">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Kontak</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero-content container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Portofolio</span>
+            </div>
+            <h1>Semua <span class="gradient-text">Proyek</span> Saya</h1>
+            <p>Kumpulan proyek yang telah saya bangun, mulai dari aplikasi web full-stack hingga integrasi API.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-page-main">
+        <div class="container">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="website">Website Project</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX</button>
+            </div>
+
+            <div class="portfolio-full-grid">
+
+                <!-- Project 1: NEXUS Weather -->
+                <div class="portfolio-full-card" data-category="website">
+                    <img src="Images/Website-project-images/Nexus-Homepage2.png" alt="NEXUS Weather Intelligence" class="pf-card-image">
+                    <div class="pf-card-body">
+                        <span class="pf-card-category">Website Project</span>
+                        <h3>NEXUS Weather</h3>
+                        <p>
+                            Platform intelijen cuaca real-time dengan multi-day forecast dan interface futuristik.
+                            Menampilkan data cuaca secara akurat dan responsif untuk berbagai lokasi.
+                        </p>
+                        <div class="pf-tech-tags">
+                            <span class="pf-tech-tag">Laravel</span>
+                            <span class="pf-tech-tag">API Integration</span>
+                            <span class="pf-tech-tag">JavaScript</span>
+                        </div>
+                        <div class="pf-card-links">
+                            <a href="https://github.com/Flamez18/Weather-Forecast-App" class="pf-link-btn primary"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: YuzuGo -->
+                <div class="portfolio-full-card" data-category="website">
+                    <img src="Images/Website-project-images/YuzuUserDashboard.png" alt="YuzuGo" class="pf-card-image">
+                    <div class="pf-card-body">
+                        <span class="pf-card-category">Website Project</span>
+                        <h3>柚語 - YuzuGo</h3>
+                        <p>
+                            Aplikasi belajar Bahasa Jepang (Kana, Kanji, Vocab) interaktif dengan sistem XP, Leveling,
+                            dan Streak untuk membuat proses belajar terasa seperti bermain game.
+                        </p>
+                        <div class="pf-tech-tags">
+                            <span class="pf-tech-tag">React.js</span>
+                            <span class="pf-tech-tag">Laravel 11</span>
+                            <span class="pf-tech-tag">MySQL</span>
+                        </div>
+                        <div class="pf-card-links">
+                            <a href="https://github.com/Flamez18/Japanese-Learning-App" class="pf-link-btn primary"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: PureStrands (Hairstrand) -->
+                <div class="portfolio-full-card" data-category="website">
+                    <img src="Images/Website-project-images/Purestrand_home1.png" alt="PureStrands Haircare" class="pf-card-image">
+                    <div class="pf-card-body">
+                        <span class="pf-card-category">Website Project</span>
+                        <h3>PureStrands</h3>
+                        <p>
+                            Aplikasi e-commerce perawatan rambut dengan fitur rekomendasi produk, manajemen pesanan,
+                            dan antarmuka yang bersih dan modern untuk pengalaman belanja yang menyenangkan.
+                        </p>
+                        <div class="pf-tech-tags">
+                            <span class="pf-tech-tag">Laravel</span>
+                            <span class="pf-tech-tag">MySQL</span>
+                            <span class="pf-tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="pf-card-links">
+                            <a href="https://github.com/Flamez18/Hairstrands-apk" class="pf-link-btn primary"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Kosfit UI/UX -->
+                <div class="portfolio-full-card" data-category="uiux">
+                    <img src="Images/UI-UX%20Images/Kosfit%20UI-UX.png" alt="Kosfit UI/UX Design" class="pf-card-image">
+                    <div class="pf-card-body">
+                        <span class="pf-card-category">UI/UX</span>
+                        <h3>Kosfit App </h3>
+                        <p>
+                            Desain antarmuka aplikasi fitness Kosfit — mencakup tampilan dashboard, program latihan,
+                            dan alur pengguna yang intuitif dengan estetika modern dan energik.
+                        </p>
+                        <div class="pf-tech-tags">
+                            <span class="pf-tech-tag">Figma</span>
+                            <span class="pf-tech-tag">UI Design</span>
+                            <span class="pf-tech-tag">Prototyping</span>
+                        </div>
+                        <div class="pf-card-links">
+                            <a href="https://www.figma.com/design/MDMV2qGqn9p7xBsxr2Hc5s/UAS-Project-Digital?node-id=0-1&t=Q0SNuN4j0riIFuiI-1" class="pf-link-btn primary"><i class="fas fa-eye"></i> Lihat Desain</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Focusmind Wireframe -->
+                <div class="portfolio-full-card" data-category="uiux">
+                    <img src="Images/UI-UX%20Images/Wireframe_Focusmind.png" alt="Focusmind Wireframe" class="pf-card-image">
+                    <div class="pf-card-body">
+                        <span class="pf-card-category">UI/UX</span>
+                        <h3>Focusmind </h3>
+                        <p>
+                            Wireframe aplikasi produktivitas Focusmind — dirancang untuk membantu pengguna mengelola
+                            fokus, sesi kerja, dan istirahat dengan pendekatan desain yang bersih dan minimalis.
+                        </p>
+                        <div class="pf-tech-tags">
+                            <span class="pf-tech-tag">Figma</span>
+                            <span class="pf-tech-tag">Wireframing</span>
+                            <span class="pf-tech-tag">User Flow</span>
+                        </div>
+                        <div class="pf-card-links">
+                            <a href="https://www.figma.com/design/rMDAVWocbR3gKLOEkIfnI5/Das-Finale?node-id=0-1&t=Ibab1wRadZT285OS-1" class="pf-link-btn primary"><i class="fas fa-eye"></i> Lihat Desain</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub CTA -->
+    <section class="portfolio-github-cta">
+        <div class="container">
+            <div class="github-cta-box">
+                <div class="gh-icon"><i class="fab fa-github"></i></div>
+                <h2>Ingin Lihat Lebih Banyak?</h2>
+                <p>Jelajahi repository lengkap saya di GitHub untuk melihat kode sumber, eksperimen kecil, dan proyek lainnya.</p>
+                <div class="cta-buttons">
+                    <a href="https://github.com/Kenlie422023014" class="btn btn-primary"><i class="fab fa-github"></i> Kunjungi GitHub</a>
+                    <a href="index.html#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Kenlie Athalla Bintang. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/kenlie-athalla-bintang"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Kenlie422023014"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/Flamez18"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Filter proyek berdasarkan kategori
+        document.addEventListener('DOMContentLoaded', function () {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const cards = document.querySelectorAll('.portfolio-full-grid > *');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+
+                    const filter = button.getAttribute('data-filter');
+
+                    cards.forEach(card => {
+                        const category = card.getAttribute('data-category') || '';
+                        if (filter === 'all' || category.includes(filter)) {
+                            card.classList.remove('hidden');
+                        } else {
+                            card.classList.add('hidden');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
